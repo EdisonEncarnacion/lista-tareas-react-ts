@@ -18,7 +18,7 @@ import { ListaTareas } from "./ListaTareas";
     return (
           <div>
               <h1>Lista Tareas</h1>
-          <div>
+           <div className="flex">
            <input 
            type="text"
            value={nuevaTarea}
